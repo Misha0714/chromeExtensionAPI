@@ -22,7 +22,8 @@ for div in divs:
     a_tag = div.find('a', title=True)
     
     # Find the <time> tag within the div
-    time_tag = div.find('time', class_="primary-font__PrimaryFontStyles-o56yd5-0 NJAAh date story-date")
+    time_tag = div.find('time', class_="primary-font__PrimaryFontStyles-sc-o56yd5-0 itpAFg date story-date")
+
     
     # Find the <img> tag within the div with class "results-list--image-container"
     img_tag = div.find('img', src=True)
